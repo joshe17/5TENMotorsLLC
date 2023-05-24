@@ -1,0 +1,30 @@
+{
+  "name": "510motors",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@superfaceai/one-sdk": "^2.4.2",
+    "@types/node": "20.1.7",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "embla-carousel": "^8.0.0-rc03",
+    "embla-carousel-react": "^8.0.0-rc03",
+    "encoding": "^0.1.13",
+    "next": "13.4.2",
+    "node-fetch": "^2.6.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.4"
+  }
+}

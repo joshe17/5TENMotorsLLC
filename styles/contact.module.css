@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.container {
+    position: relative;
+    padding: 3%;
+}
+
+.contactItem {
+    padding: 20px 0 20px 0;
+    color: gray;
+}
+    .contactItem p {
+        color: ghostwhite;
+    }
+
+.contactLink:hover {
+    color: #6ba1c4;
+}
+
+.contactList {
+    color: ghostwhite;
+    font-family: 'Orbitron', cursive;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    font-family: 'Orbitron', cursive;
+    text-align: center;
+    padding: 3%;
+}
+
+.listContainer {
+    float: left;
+    display: inline-block;
+    margin: 0 50px 0 50px;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .contactList {
+        text-align: center;
+    }
+    .listContainer {
+        margin: 0;
+    }
+}

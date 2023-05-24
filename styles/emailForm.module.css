@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.body {
+    padding: 0;
+    margin: 0 50px 0 50px;
+    font-family: 'Orbitron', cursive;
+    display: flex;
+    color: ghostwhite;
+    justify-content: left;
+    float: left;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.blockButton {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    padding: 10px;
+    font-size: 20px;
+    width: 30%;
+    border: 3px ghostwhite;
+    border-radius: 5px;
+    color: ghostwhite;
+}
+
+.container {
+    font-size: 1.3rem;
+    border-radius: 10px;
+    width: 100%;
+    padding: 50px;
+    background-color: #1D1D1C;
+}
+
+    .container input {
+        font-size: 1.2rem;
+        margin: 10px 0 10px 0px;
+        border-color: rgb(31, 28, 28);
+        padding: 10px;
+        border-radius: 5px;
+        background-color: ghostwhite;
+
+    }
+
+.nameBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .nameBlock div {
+        display: flex;
+        flex-direction: column;
+    }
+
+.textarea {
+    resize: none;
+    margin: 10px 0 10px 0px;
+    padding: 5px;
+    border-color: rgb(31, 28, 28);
+    border-radius: 5px;
+    background-color: ghostwhite;
+    font-size: 14px;
+    min-height: 250px;
+}
+
+#submitButton {
+    background-color: #1D1D1C;
+    border: solid;
+    border-color: ghostwhite;
+}
+
+    #submitButton:hover {
+        background-color: ghostwhite;
+        color: black;
+    }
+
+    #submitButton:active {
+        background-color: ghostwhite;
+        color: black;
+    }
+
+
+@media only screen and (max-width: 991px) {
+    .body {
+        display: none;
+    }
+}
