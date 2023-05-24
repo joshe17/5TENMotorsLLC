@@ -9,7 +9,7 @@ import FormData  from "form-data";
 export default function EmailForm() {
     async function handleSubmit(e: any) {
         e.preventDefault();
-        const data = new FormData(e.currentTarget);
+        const data = new FormData(e.currentTarget) as any;
         try {
             const response = await fetch('/api/contactAPI', {
                 method: 'post',
